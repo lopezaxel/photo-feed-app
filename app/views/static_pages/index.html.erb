@@ -3,8 +3,6 @@
 <% if @user_id %> 
   <p>User ID: <%= @user_id %></p>
   <p>Username: <%= @user.username %></p>
-  <p>Name: <%= @user.realname %></p>
-  <p>Location: <%= @user.location %></p>
   
   <% @urls.each do |url| %>
     <%= image_tag(url) %><br>
